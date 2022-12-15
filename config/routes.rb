@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'missions/index'
   get 'listings/index'
   get 'listings/show'
   get 'listings/create'
